@@ -72,20 +72,73 @@
 
 ## Experimental Tests
 
-### Test 1: Opposing Polarized Fields
-**Setup:** Two high-intensity lasers with opposite circular polarization intersecting in vacuum.
+### Test 1: Counter-Propagating Circularly Polarized Beams (CORE EXPERIMENT)
 
-**Prediction:** If bulk has structure, opposing polarizations create stress, potentially producing:
-- Anomalous particle production (e+e- pairs) at lower thresholds
-- Non-linear vacuum effects not predicted by QED
-- Energy dissipation into bulk
+**Concept:**
+Two laser beams with the **same helicity** (both right-circularly polarized) propagate in **opposite directions** and intersect in vacuum.
+
+**Setup:**
+```
+Laser 1 (right-circular) → [intersection point] ← Laser 2 (right-circular)
+```
+
+**Why this matters:**
+- From Laser 1's perspective: Laser 2 appears to rotate **counter-clockwise** (opposite direction)
+- From Laser 2's perspective: Laser 1 appears to rotate **counter-clockwise** (opposite direction)
+- At the intersection point: **opposing rotational stresses** on the bulk structure
+
+**Physical analogy:**
+- Imagine twisting a rubber sheet clockwise from the left side
+- Simultaneously twist it clockwise from the right side
+- At the center: the sheet experiences **opposing torques** → maximum stress
+
+**Predictions if bulk exists:**
+
+**Scenario A: Bulk has structure (framework confirmed)**
+- Opposing rotational stresses create **tension** in the bulk
+- At critical intensity: bulk "tears" or becomes highly non-linear
+- Observable effects:
+  - **Anomalous particle production** (e⁺e⁻ pairs) at lower thresholds than Schwinger limit
+  - **Enhanced light-by-light scattering** (cross-section increases dramatically)
+  - **Vacuum birefringence** (polarization rotation not predicted by QED)
+  - **Energy dissipation** into bulk (measurable temperature increase in vacuum chamber)
+  - **Non-linear frequency mixing** (generation of harmonics not allowed by standard QED)
+
+**Scenario B: Bulk is trivial (framework falsified)**
+- No anomalous effects
+- All observations match standard QED predictions
+- Light-by-light scattering follows QED cross-section exactly
+
+**Key measurement:**
+Compare results with:
+1. **Co-propagating beams** (both lasers going same direction, same helicity)
+2. **Counter-propagating with opposite helicity** (one right, one left)
+3. **Single beam** (baseline)
+
+**Expected differences:**
+- If bulk exists: counter-propagating same-helicity should show **strongest** anomalies
+- If bulk doesn't exist: all configurations should give **same** results (within QED)
 
 **Current status:**
 - Light-by-light scattering observed (ATLAS, 2019)
 - No anomalies found yet
-- **Next:** LUXE experiment (2027) will test Schwinger effect
+- **But:** ATLAS did not specifically test counter-propagating same-helicity configuration
+- **Next:** LUXE experiment (2027) could be modified to include this test
+
+**Experimental requirements:**
+- Two high-intensity lasers (>10²² W/cm² each)
+- Precise circular polarization control (λ/4 waveplates)
+- Ultra-high vacuum chamber (<10⁻¹⁰ mbar)
+- Particle detectors (for e⁺e⁻ pairs)
+- Polarimeters (for birefringence)
+- Calorimeters (for energy dissipation)
+
+**Estimated cost:** $5-10M (tabletop experiment) or wait for LUXE modification
+
+---
 
 ### Test 2: Precision Gravitational Wave Analysis
+
 **Setup:** Analyze LIGO/Virgo data for deviations from GR predictions.
 
 **Prediction:** Gravitational waves should show:
@@ -98,15 +151,31 @@
 - No deviations observed
 - **Next:** LISA (space-based detector, 2030s) will provide higher precision
 
-### Test 3: Vacuum Birefringence
-**Setup:** PVLAS-style experiment with stronger magnetic fields.
+---
+
+### Test 3: Vacuum Birefringence with Enhanced Sensitivity
+
+**Setup:** PVLAS-style experiment with stronger magnetic fields and circularly polarized light.
 
 **Prediction:** Vacuum should exhibit birefringence due to bulk structure.
 
 **Current status:**
 - PVLAS searched for 25 years
 - No detection (upper limits set)
-- **Next:** Improved sensitivity needed
+- **Next:** Improved sensitivity needed (factor of 10-100)
+
+---
+
+### Test 4: Casimir Effect with Bulk Geometry
+
+**Setup:** Measure Casimir force between plates with varying geometries (flat, curved, patterned).
+
+**Prediction:** If bulk has structure, Casimir force should depend on bulk topology.
+
+**Current status:**
+- Casimir effect measured precisely
+- No geometry-dependent anomalies found
+- **Next:** Test exotic geometries (fractal surfaces, metamaterials)
 
 ---
 
@@ -116,7 +185,8 @@
 2. **Dark matter perfectly matches particle models** → no need for bulk projection
 3. **Singularities confirmed** (if ever observable) → no topological boundary
 4. **Gravitational waves perfectly match GR** at all distances → no bulk dissipation
-5. **Vacuum behaves exactly as QED predicts** → no bulk structure
+5. **Vacuum behaves exactly as QED predicts** in all configurations → no bulk structure
+6. **Counter-propagating same-helicity beams show no anomalies** → bulk doesn't respond to rotational stress
 
 ---
 
@@ -124,8 +194,19 @@
 
 ✅ Framework is consistent with known physics
 ✅ Makes testable predictions
+✅ Core experiment identified (counter-propagating circularly polarized beams)
 ⚠️ No experimental confirmation yet
 ⚠️ Some predictions (energy dissipation) need refinement
 ❌ No direct evidence for bulk structure
 
-**Conclusion:** Framework is a valid hypothesis requiring experimental testing. Not yet a theory.
+**Conclusion:** Framework is a valid hypothesis requiring experimental testing. The counter-propagating circularly polarized beam experiment is the most direct test. Not yet a theory.
+
+---
+
+## Author's Note
+
+This framework was developed by [Your Name] and published openly on GitHub to encourage collaboration and testing. The core idea is that our 3D universe may be a projection from a higher-dimensional bulk structure, and that electromagnetic waves are perturbations of this bulk.
+
+The most critical test is the counter-propagating circularly polarized beam experiment: if the bulk has structure, opposing rotational stresses should produce observable anomalies not predicted by standard QED.
+
+All contributions, critiques, and experimental results are welcome.
