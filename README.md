@@ -1,3 +1,5 @@
+https://github.com/wertux21-cpu/project-prometheus-4d/blob/scientific-framework/EXPLANATION.md
+
 # Project Prometheus: Концептуальная модель проекционного пространства-времени
 
 > *"Пространство-время — это не фундаментальная реальность, а эффективное описание"*  
