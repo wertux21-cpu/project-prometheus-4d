@@ -1,3 +1,5 @@
+https://github.com/wertux21-cpu/project-prometheus-4d/blob/main/FINAL_CORE.md
+
 https://github.com/wertux21-cpu/project-prometheus-4d/blob/scientific-framework/EXPLANATION.md
 
 # Project Prometheus: Концептуальная модель проекционного пространства-времени
